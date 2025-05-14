@@ -15,7 +15,7 @@ public class Main {
 
         programmer.attendTraining();
 
-        List<Employee.Attendee> trainingGroup = new ArrayList<>();
+        List<Attendee> trainingGroup = new ArrayList<>();
         trainingGroup.add(manager);
         trainingGroup.add(programmer);
 

@@ -1,6 +1,6 @@
 package homeWork6.employee;
 
-public class Programmer extends Employee implements Employee.Attendee  {
+public class Programmer extends Employee implements Attendee {
     public Programmer(String name, int id) {
         super(name, id);
     }

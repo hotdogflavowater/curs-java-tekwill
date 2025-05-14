@@ -1,19 +1,20 @@
 package homeWork6.meetingRoom;
 
+import homeWork6.employee.Attendee;
 import homeWork6.employee.Employee;
+import homeWork6.employee.Manager;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public class MeetingRoom {
-    private List<Employee.Attendee> attendees;
+    private List<Attendee> attendees;
 
-    public MeetingRoom(List<Employee.Attendee> attendees) {
+    public MeetingRoom(List<Attendee> attendees) {
         this.attendees = attendees;
     }
 
     public void startTraining() {
-        for (Employee.Attendee a : attendees) {
+        for (Attendee a : attendees) {
             a.attendTraining();
         }
     }

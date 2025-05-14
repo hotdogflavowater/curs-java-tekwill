@@ -26,12 +26,4 @@ public class Employee {
     }
 
 
-    public interface Attendee {
-        void attendTraining();
-    }
-
-    public interface Interviewer {
-        void conductInterview();
-    }
-
 }
